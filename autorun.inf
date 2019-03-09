@@ -1,0 +1,10 @@
+[autorun]
+open=startcd.exe PowerPointViewer\PPTVIEW.EXE
+icon=LMAT_SIMX.ico
+label=LMAT_SIMX CD
+shell=OpenCD
+shell\OpenCD\=Autoplay CD-ROM
+shell\OpenCD\Command=startcd.exe PowerPointViewer\PPTVIEW.EXE
+
+[startcd]
+file=data\LMAT_SIMX.pps
